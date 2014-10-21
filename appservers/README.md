@@ -8,6 +8,13 @@
 * App error rate
 * Error counts on backend H/W
 * Bandwidth usage front and backend
-* System load on primary application server: CPU, memory, disk, swapping
+* System stats:
+  * cpu_idle
+  * run queue depth
+  * memory_free
+  * memory_in_use_by_application
+  * swap bytes in/out
+  * disk IO
+  * disk queue depth
 * Usage patterns:
   * which user, client time, session time, active vs idle time

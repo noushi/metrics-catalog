@@ -11,4 +11,6 @@
     * per server
     * per backend
   * system 'flame graph'
-  * visualize traffic as graph, queue time, request flow
+  * visualize traffic as graph, queue time
+  * end-to-end request graph, with latency and queue depths
+  

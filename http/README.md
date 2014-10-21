@@ -1,8 +1,10 @@
 # http (80/tcp)
 
-* duration_connect_msec (u_int32)
-* duration_firstbyte_msec (u_int32)
-* duration_total_msec (u_int32)
+* client_duration_connect_msec (u_int32)
+* client_duration_firstbyte_msec (u_int32)
+* client_duration_total_msec (u_int32)
+* backend_duration (u_int32)
+* backend_response_code (u_int32)
 * request_bytes (u_int32)
 * response_bytes (u_int32)
 * response_code (string)
